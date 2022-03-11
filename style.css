@@ -163,7 +163,10 @@ header{
     display: flex;
     flex-direction: column;
     color: white;
+}
 
+span{
+    padding: 1em 1em 1em 0;
 }
 
 .icon{
@@ -174,6 +177,39 @@ header{
 .newsletter{
     color: white;
 }
+
+
+
+input{
+    margin-top: 2.5em;
+    height: 3.8em;
+    border-radius: 10px;
+    width: 20rem;
+}
+
+.sub{
+    margin-top: 2em;
+    position: absolute;
+    height: 3.5em;
+    width: 10rem;
+    margin-left: 2em;
+    border-radius: 10px;
+    background-color: var(--pink);
+    border: 0;
+    font-size: 1em;
+
+}
+
+.social{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    width: 10em;
+}
+
+
+
+
 
 
 
